@@ -28,7 +28,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: 
 
 # --- Footer options --- #
 
@@ -36,7 +36,7 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: StrikeSim
-  email: "youremail@domain.com"
+  email: "teamStrikeSim@gmail.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
   twitter: yourname   # eg. daattali
@@ -46,10 +46,10 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
-  twitter: true
-  github: true
+  twitter: false
+  github: false
   linkedin: false
   stackoverflow: false
 
